@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li {list-style:none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.block{
+    color:rgb(3, 3, 3) ;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0px 1px 5px rgb(226, 156, 243);
+    font-family: Arial;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgb(236, 58, 58);
+    background: url('../img/Madara.jpg') -220px -240px no-repeat;
+    border: 5px solid rgb(146, 144, 144);
+}
+.block2{
+    text-align: center;
+    color: rgb(177, 184, 181);
+    border-radius: 30%;
+    font-size: 27px;
+    display: inline-block;
+    width: 600px;
+    height: 300px;
+    box-shadow: 0px 0 20px rgb(136, 107, 241);
+    border: 5px solid rgb(146, 144, 144);
+}
+
+
